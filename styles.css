@@ -1,0 +1,135 @@
+:root {
+  --backgroundBlue: hsl(241, 47%, 27%);
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: var(--backgroundBlue);
+}
+
+.navbar img {
+  height: 2em;
+  margin: 0.7em;
+  margin-bottom: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  background-color: white;
+  margin: 0.3em;
+  margin-top: 0;
+  padding: 0.3em;
+  padding-right: 1.5em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.homeCard {
+    display: inline-block;
+    width: 20%;
+    border-color: black;
+    border-style: solid;
+    border-width: .1em;
+    transition: 1s;
+    margin-bottom: 0;
+}
+
+.homeCard:hover{
+    transform: scale(1.15);
+    box-shadow: 1em 1em 0.5em black;
+    transition: 1s;
+}
+
+#homeCard1{
+    background-image: url("./images/applynow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+}
+
+#homeCard2{
+    background-image: url("./images/requestinfo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+}
+
+#homeCard3{
+    background-image: url("./images/visitcampus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+}
+
+.homeCard figcaption {
+  background-color: var(--backgroundBlue);
+  color: white;
+  padding: 0.5em;
+}
+
+.homeCard a{
+    text-decoration: none;
+}
+
+hr{
+    color: lightgray;
+}
+
+.homeHeader{
+    color: var(--backgroundBlue);
+    font-size: x-large;
+}
+
+.homeArticle{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    font-size: small;
+}
+
+#homeImageMain {
+    display: inline-block;
+    width: 20%;
+    margin-right: 5em;
+    margin-left: 0.9em;
+}
+
+#homeImageMain img{
+    display: inline-block;
+    width: 100%;
+    margin-right: 10em;
+}
+
+.bottomLinkBlock{
+    display: inline-block;
+    width: 48%;
+}
+
+.bottomNavHeader{
+    background-color: lightgray;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.bottomNavList{
+    list-style-type: none;
+}
+
+.bottomNavList a{
+    text-decoration: none;
+    color: orange;
+    font-size: large;
+}
+
+hr{
+    margin: 0.5em;
+}
